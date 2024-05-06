@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="first-main">
+    <div class="main_content left-margin">
+        <h1>Lessons and insights</h1>
+        <h2>from 8 years</h2>
+        <p>Where to grow your business as a photographer: site or social media?</p>
+        <button class="second-register-btn">Register</button>
+    </div>
+    <div class="background-second">
+        <img src="{% static '/img/bg2.png' %}" alt="">
+    </div>
+</div>
+<div class="second-main">
+    <div class="head">
+        <h3 class="top-header">Our Clients</h3>
+        <p class="paras">We have been working with some Fortune 500+ clients</p>
+    </div>
+
+    <div class="client-logos">
+        <i class="fa-brands fa-wordpress"></i>
+        <i class="fa-brands fa-slack"></i>
+        <i class="fa-brands fa-yahoo"></i>
+        <i class="fa-brands fa-stumbleupon"></i>
+        <i class="fa-brands fa-joomla"></i>
+        <i class="fa-brands fa-drupal"></i> 
+        <i class="fa-brands fa-square-pied-piper"></i>
+    </div>
+
+    <div class="head">
+        <h3 class="top-header">Manage your entire community <br>in a single system</h3>
+        <p class="paras">Who is Nextcent suitable for?</p>
+    </div>
+
+    <div class="community">
+        <div class="card">
+            <i class="fa-solid fa-user"></i>
+            <h4>Membership <br> Organization</h4>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-building-user"></i>
+            <h4> National <br>Associations</h4>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-group-arrows-rotate"></i>
+            <h4> Clubs And <br> Groups</h4>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+    </div>
+
+    <div class="last_main">
+        <div class="background-third">
+            <img src="{% static '/img/bg2.png' %}" alt="">
+        </div>
+        <div class="main_content-right-margin">
+            <h1>The unseen of spending three <br>years at Pixelgrade</h1>
+            <p><i class="fa-solid fa-check-double"></i>Membership Organization</p>
+            <p> <i class="fa-solid fa-check-double"></i>National Associations</p>
+            <p><i class="fa-solid fa-check-double"></i>Clubs And Groups</p>
+            <p> <i class="fa-solid fa-check-double"></i>Helping a local business</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
